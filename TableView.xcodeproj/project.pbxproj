@@ -13,6 +13,8 @@
 		9D14BCF326391BCE00F6010E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14BCF126391BCE00F6010E /* Main.storyboard */; };
 		9D14BCF526391BD600F6010E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D14BCF426391BD600F6010E /* Assets.xcassets */; };
 		9D14BCF826391BD600F6010E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D14BCF626391BD600F6010E /* LaunchScreen.storyboard */; };
+		9D14BD0126391D3C00F6010E /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14BD0026391D3C00F6010E /* SettingTableViewCell.swift */; };
+		9D14BD042639340900F6010E /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D14BD032639340900F6010E /* SwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9D14BCF426391BD600F6010E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D14BCF726391BD600F6010E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D14BCF926391BD600F6010E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D14BD0026391D3C00F6010E /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		9D14BD032639340900F6010E /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				9D14BCF426391BD600F6010E /* Assets.xcassets */,
 				9D14BCF626391BD600F6010E /* LaunchScreen.storyboard */,
 				9D14BCF926391BD600F6010E /* Info.plist */,
+				9D14BD0026391D3C00F6010E /* SettingTableViewCell.swift */,
+				9D14BD032639340900F6010E /* SwitchTableViewCell.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				9D14BCF026391BCD00F6010E /* ViewController.swift in Sources */,
 				9D14BCEC26391BCD00F6010E /* AppDelegate.swift in Sources */,
+				9D14BD042639340900F6010E /* SwitchTableViewCell.swift in Sources */,
+				9D14BD0126391D3C00F6010E /* SettingTableViewCell.swift in Sources */,
 				9D14BCEE26391BCD00F6010E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
